@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");*/
 
 * {
   font-family: "Roboto", sans-serif;
@@ -11,31 +11,56 @@
 .header-container-top {
   background-color: #222222;
   color: #f3f3f3;
-  font-size: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .header-lista {
   list-style: none;
+  display: flex;
+  gap: 50px; 
 }
 
 .header-container-bottom {
   background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .logo {
   font-weight: bold;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 50;
+  display: flex;
+  align-items: center;
 }
 
-.texto-logo-top {
+.logo img {
+  height: 20px;
+}
+
+.front-logo {
   color: #3c2313;
 }
 
 .nav-lista {
   list-style: none;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 18px;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-lista img{
+  height: 19px;
 }
 
 /* main */
