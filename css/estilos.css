@@ -96,4 +96,129 @@
   border-radius: 5px;
 }
 
+.productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
 
+.productos-destacados {
+  font-size: 45px;
+}
+
+.productos-links {
+  display: flex;
+  gap: 20px;
+}
+
+.productos-imagenes {
+  display: flex;
+  gap: 20px;
+}
+
+.producto-imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FBFAF6;
+}
+
+.precio {
+  color: #F0A83E;
+}
+
+.contactenos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.contactenos h2 {
+  color: #3c2313;
+  font-size: 30px;
+}
+
+.datos-personales p {
+  color: white;
+  background-color: #3c2313;
+  margin: 10px;
+  padding: 15px;
+  font-size: 10px;
+  border-radius: 16px;
+  width: 300px;
+}
+
+.contactos-botones {
+  display: flex;
+  gap: 10px;
+}
+
+.gris {
+  color: white;
+  background-color: #8A8787;
+  border-radius: 16px;
+  padding: 8px 30px;
+}
+
+.naranja {
+  color: white;
+  background-color: #F0A83E;
+  border-radius: 16px;
+  padding: 8px 30px;
+}
+
+/*footer*/ 
+.suscripcion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #F0A83E;
+  padding: 15px;
+}
+
+.nosotros {
+  color: white;
+  background-color: #3c2313;
+}
+
+.derechos-reservados {
+  color: white;
+  background-color: #222222;
+}
+
+.suscripcion-mensaje {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.suscripcion-mensaje p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.suscripcion-accion {
+  display: flex;
+  gap: 8px;
+}
+
+.suscripcion-correo {
+  color: black;
+  background-color: white;
+  font-size: 11px;
+  border-radius: 18px;
+  padding: 15px;
+  width: 300px;
+}
+
+.suscripcion-boton {
+  background-color: #3C2313;
+  font-size: 11px;
+  border-radius: 18px;
+  padding: 15px;
+}
