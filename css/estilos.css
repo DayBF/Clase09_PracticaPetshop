@@ -51,6 +51,10 @@
   color: #3c2313;
 }
 
+.menu-hamburguesa {
+  display: none;
+}
+
 .nav-lista {
   list-style: none;
   color: #ffffff;
@@ -70,6 +74,7 @@
   align-items: center;
   background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
   background-size: cover;
+  width: 100vw;
   height: 900px;
 }
 
@@ -221,4 +226,72 @@
   font-size: 11px;
   border-radius: 18px;
   padding: 15px;
+}
+
+.nosotros {
+  display: flex;
+  align-items: center;
+  /* flex-direction: column-reverse; */
+}
+
+/* para tablet */
+@media (max-width: 768px) {
+
+}
+
+
+/* para telefono */
+@media (max-width: 500px) {
+
+  .header-container-top {
+    display: none;
+  }
+
+  .header-container-bottom {
+    padding-right: 0;
+  }
+
+  .nav-lista {
+    display: none;
+  }
+
+  .menu-hamburguesa {
+    display: contents;
+    width: 100%;
+  }
+
+  .menu-hamburguesa i {
+    font-size: 25px;
+    color: #f3f3f3;
+    margin-left: 100px;
+  }
+
+  .bienvenida {
+    font-size: 20px;
+  }
+
+  .banner-mensaje {
+    align-items: flex-end;
+  }
+
+  .banner {
+    height: 350px;
+  }
+
+  .productos-destacados {
+    text-align: center;
+  }
+
+  .productos-imagenes {
+    flex-direction: column;
+  }
+
+  .suscripcion {
+    flex-direction: column;
+  }
+
+  /* .nosotros {
+    flex-direction: column-reverse;
+  } */
+
 }
